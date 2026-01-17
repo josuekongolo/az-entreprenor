@@ -1,0 +1,22 @@
+# AZ Entreprenør AS - robots.txt
+# https://az-entreprenor.no
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://az-entreprenor.no/sitemap.xml
+
+# Disallow admin/private pages if any
+Disallow: /admin/
+Disallow: /private/
+
+# Allow search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

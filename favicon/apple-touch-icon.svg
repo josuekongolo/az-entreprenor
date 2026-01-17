@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="#2D2D2D"/>
+  <!-- 2x2 Tile Pattern -->
+  <rect x="30" y="30" width="52" height="52" rx="6" fill="#E07B39"/>
+  <rect x="98" y="30" width="52" height="52" rx="6" fill="#F5F5F5"/>
+  <rect x="30" y="98" width="52" height="52" rx="6" fill="#F5F5F5"/>
+  <rect x="98" y="98" width="52" height="52" rx="6" fill="#E07B39"/>
+  <!-- Grout Lines -->
+  <line x1="90" y1="30" x2="90" y2="150" stroke="#2D2D2D" stroke-width="10"/>
+  <line x1="30" y1="90" x2="150" y2="90" stroke="#2D2D2D" stroke-width="10"/>
+</svg>

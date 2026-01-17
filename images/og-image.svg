@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Tile Pattern -->
+    <pattern id="tilePattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect width="60" height="60" fill="#2D2D2D"/>
+      <rect x="2" y="2" width="26" height="26" fill="#3D3D3D"/>
+      <rect x="32" y="2" width="26" height="26" fill="#3D3D3D"/>
+      <rect x="2" y="32" width="26" height="26" fill="#3D3D3D"/>
+      <rect x="32" y="32" width="26" height="26" fill="#3D3D3D"/>
+    </pattern>
+    <!-- Gradient overlay -->
+    <linearGradient id="gradientOverlay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D2D2D;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#2D2D2D;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#1D1D1D;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background with tile pattern -->
+  <rect width="1200" height="630" fill="url(#tilePattern)"/>
+  <rect width="1200" height="630" fill="url(#gradientOverlay)"/>
+
+  <!-- Decorative elements -->
+  <rect x="0" y="0" width="1200" height="8" fill="#E07B39"/>
+  <rect x="0" y="622" width="1200" height="8" fill="#E07B39"/>
+
+  <!-- Logo tiles -->
+  <g transform="translate(100, 215)">
+    <rect x="0" y="0" width="80" height="80" rx="8" fill="#E07B39"/>
+    <rect x="90" y="0" width="80" height="80" rx="8" fill="#F5F5F5"/>
+    <rect x="0" y="90" width="80" height="80" rx="8" fill="#F5F5F5"/>
+    <rect x="90" y="90" width="80" height="80" rx="8" fill="#E07B39"/>
+  </g>
+
+  <!-- Company Name -->
+  <text x="320" y="300" font-family="Outfit, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF">
+    AZ Entreprenør
+  </text>
+
+  <!-- Tagline -->
+  <text x="320" y="360" font-family="Source Sans 3, sans-serif" font-size="28" fill="#E07B39">
+    Din lokale gulv- og flisekspert
+  </text>
+
+  <!-- Services -->
+  <text x="320" y="420" font-family="Source Sans 3, sans-serif" font-size="22" fill="rgba(255,255,255,0.7)">
+    Flislegging | Gulvlegging | Gulvavretting | Våtromsarbeid
+  </text>
+
+  <!-- Location -->
+  <g transform="translate(320, 480)">
+    <circle cx="12" cy="12" r="12" fill="#E07B39"/>
+    <path d="M12 6C9.24 6 7 8.24 7 11C7 14.75 12 20 12 20S17 14.75 17 11C17 8.24 14.76 6 12 6ZM12 13C10.9 13 10 12.1 10 11C10 9.9 10.9 9 12 9C13.1 9 14 9.9 14 11C14 12.1 13.1 13 12 13Z" fill="white"/>
+    <text x="35" y="18" font-family="Source Sans 3, sans-serif" font-size="20" fill="rgba(255,255,255,0.6)">
+      Skedsmokorset | Lillestrøm | Romerike
+    </text>
+  </g>
+
+  <!-- Website -->
+  <text x="1100" y="590" font-family="Source Sans 3, sans-serif" font-size="18" fill="rgba(255,255,255,0.5)" text-anchor="end">
+    az-entreprenor.no
+  </text>
+</svg>

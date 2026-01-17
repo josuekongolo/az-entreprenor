@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50">
+  <!-- Tile Pattern Icon -->
+  <g transform="translate(0, 5)">
+    <!-- 2x2 Tile Grid -->
+    <rect x="2" y="2" width="18" height="18" rx="2" fill="#E07B39"/>
+    <rect x="22" y="2" width="18" height="18" rx="2" fill="#FFFFFF"/>
+    <rect x="2" y="22" width="18" height="18" rx="2" fill="#FFFFFF"/>
+    <rect x="22" y="22" width="18" height="18" rx="2" fill="#E07B39"/>
+    <!-- Grout Lines -->
+    <line x1="21" y1="2" x2="21" y2="42" stroke="#1D1D1D" stroke-width="2"/>
+    <line x1="2" y1="21" x2="42" y2="21" stroke="#1D1D1D" stroke-width="2"/>
+  </g>
+  <!-- Company Name -->
+  <text x="52" y="33" font-family="Outfit, sans-serif" font-size="24" font-weight="700">
+    <tspan fill="#FFFFFF">AZ</tspan>
+    <tspan fill="#FFFFFF" dx="4">Entreprenør</tspan>
+  </text>
+</svg>
